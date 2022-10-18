@@ -1,0 +1,22 @@
+.container {  display: grid;
+    grid-template-columns: 0.7fr 0.9fr 0.9fr 1fr;
+    grid-template-rows: 0.6fr 1.4fr 1.4fr 0.6fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "HEADER HEADER HEADER HEADER"
+      "LEFT BODY BODY BODY"
+      "LEFT BODY BODY BODY"
+      "FOOTER FOOTER FOOTER FOOTER";
+  }
+  
+  .HEADER { grid-area: HEADER; }
+  
+  
+  .LEFT { grid-area: LEFT; }
+  
+  .BODY { grid-area: BODY; }
+  
+  .FOOTER { grid-area: FOOTER; }
+  
+  
